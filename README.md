@@ -1,6 +1,6 @@
-# 🚀 Enterprise CI/CD & Zero-Downtime Deployments (Hybrid Architecture)
+# Enterprise CI/CD & Zero-Downtime Deployments (Hybrid Architecture)
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates an end-to-end, fully automated Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Python/gRPC microservice (`emailservice`). 
 
 **The Engineering Challenge:** Architect an enterprise-grade CI/CD workflow and Kubernetes cluster on a local environment. 
@@ -10,7 +10,7 @@ This project showcases expertise in CI/CD automation, DevSecOps principles, cont
 
 ---
 
-## 🏗️ Architecture: The "8GB RAM Survival Stack"
+## Architecture: The "8GB RAM Survival Stack"
 
 To prevent Out-Of-Memory (OOM) crashes while simulating an enterprise environment, the architecture is split between resource-restricted local containers and free-tier cloud services:
 
@@ -22,7 +22,7 @@ To prevent Out-Of-Memory (OOM) crashes while simulating an enterprise environmen
 
 ---
 
-## ⚙️ The CI/CD Pipeline Lifecycle
+##  The CI/CD Pipeline Lifecycle
 
 The pipeline is defined entirely as code (`Jenkinsfile`) and executes the following stages automatically upon a Git push:
 
@@ -34,7 +34,7 @@ The pipeline is defined entirely as code (`Jenkinsfile`) and executes the follow
 
 ---
 
-## 🔄 Zero-Downtime Deployments (Argo Rollouts)
+## Zero-Downtime Deployments (Argo Rollouts)
 
 
 
@@ -46,7 +46,7 @@ Standard Kubernetes rolling updates can still result in dropped requests. To gua
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## Technologies & Tools Used
 
 * **Version Control:** Git, GitHub
 * **CI/CD Orchestration:** Jenkins (Pipeline as Code)
@@ -58,7 +58,7 @@ Standard Kubernetes rolling updates can still result in dropped requests. To gua
 
 ---
 
-## 🧠 Key Learnings & Engineering Workarounds
+##  Key Learnings & Engineering Workarounds
 
 * **Resource Management:** Successfully ran a heavy Java/Kubernetes stack on 8GB RAM by mapping the host's Docker socket into a heavily restricted Jenkins container, proving an understanding of container limits and OS resources.
 * **Network Integration:** Configured a Dockerized Jenkins instance on a `--network host` to seamlessly communicate with the host's Minikube cluster and local `.kube` configurations.
@@ -66,9 +66,8 @@ Standard Kubernetes rolling updates can still result in dropped requests. To gua
 
 ---
 
-## 👤 Author
+##  Author
 
 **Lucky Philip (Phil)** DevOps Engineer
 
-* **Brand:** Phil's Tech Hub
-* **Content Creation:** Exploring Cloud, DevOps, and Tech Discoveries on [Lucky TubeTips](#) & [Lucky Phil's Discoveries](#).
+* **Email:** philipslucky24@gmail.com
